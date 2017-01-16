@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UILabel *questionLB;
+@property (nonatomic, weak) IBOutlet UILabel *answerLB;
 
 @end
 
