@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F354DBE1E306167003DF283 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F354DBD1E306167003DF283 /* main.m */; };
+		6F354DE11E3067ED003DF283 /* Alliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F354DDC1E3067ED003DF283 /* Alliance.m */; };
+		6F354DE21E3067ED003DF283 /* GameCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F354DDE1E3067ED003DF283 /* GameCharacter.m */; };
+		6F354DE31E3067ED003DF283 /* Horde.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F354DE01E3067ED003DF283 /* Horde.m */; };
+		6F354DEA1E3067F3003DF283 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F354DE51E3067F3003DF283 /* Person.m */; };
+		6F354DEB1E3067F3003DF283 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F354DE71E3067F3003DF283 /* Student.m */; };
+		6F354DEC1E3067F3003DF283 /* UniversityStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F354DE91E3067F3003DF283 /* UniversityStudent.m */; };
+		6FB771651E358D8800DDF16E /* Bank.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB771641E358D8800DDF16E /* Bank.m */; };
+		6FB771681E358D9F00DDF16E /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB771671E358D9F00DDF16E /* Man.m */; };
+		6FB7716B1E358DAC00DDF16E /* Woman.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7716A1E358DAC00DDF16E /* Woman.m */; };
+		6FB7716F1E358DD800DDF16E /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7716E1E358DD800DDF16E /* People.m */; };
+		6FB771721E35A8A300DDF16E /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB771711E35A8A300DDF16E /* Calculator.m */; };
+		6FB771761E35D55300DDF16E /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB771751E35D55300DDF16E /* Figure.m */; };
+		6FB771791E35D5DA00DDF16E /* FigureArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB771781E35D5DA00DDF16E /* FigureArea.m */; };
+		6FB7717C1E35D79F00DDF16E /* FigurePerimeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7717B1E35D79F00DDF16E /* FigurePerimeter.m */; };
+		6FB7717F1E35D82600DDF16E /* FigureCircumference.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB7717E1E35D82600DDF16E /* FigureCircumference.m */; };
+		6FB771821E35D89900DDF16E /* FigureVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB771811E35D89900DDF16E /* FigureVolume.m */; };
+		6FB771851E35F5D500DDF16E /* ToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB771841E35F5D500DDF16E /* ToolBox.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6F354DB81E306167003DF283 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6F354DBA1E306167003DF283 /* OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOP; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F354DBD1E306167003DF283 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OOP/main.m; sourceTree = "<group>"; };
+		6F354DDB1E3067ED003DF283 /* Alliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alliance.h; path = Warcraft/Alliance.h; sourceTree = "<group>"; };
+		6F354DDC1E3067ED003DF283 /* Alliance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Alliance.m; path = Warcraft/Alliance.m; sourceTree = "<group>"; };
+		6F354DDD1E3067ED003DF283 /* GameCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCharacter.h; path = Warcraft/GameCharacter.h; sourceTree = "<group>"; };
+		6F354DDE1E3067ED003DF283 /* GameCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameCharacter.m; path = Warcraft/GameCharacter.m; sourceTree = "<group>"; };
+		6F354DDF1E3067ED003DF283 /* Horde.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Horde.h; path = Warcraft/Horde.h; sourceTree = "<group>"; };
+		6F354DE01E3067ED003DF283 /* Horde.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Horde.m; path = Warcraft/Horde.m; sourceTree = "<group>"; };
+		6F354DE41E3067F3003DF283 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Person/Person.h; sourceTree = "<group>"; };
+		6F354DE51E3067F3003DF283 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Person/Person.m; sourceTree = "<group>"; };
+		6F354DE61E3067F3003DF283 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = Person/Student.h; sourceTree = "<group>"; };
+		6F354DE71E3067F3003DF283 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = Person/Student.m; sourceTree = "<group>"; };
+		6F354DE81E3067F3003DF283 /* UniversityStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UniversityStudent.h; path = Person/UniversityStudent.h; sourceTree = "<group>"; };
+		6F354DE91E3067F3003DF283 /* UniversityStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UniversityStudent.m; path = Person/UniversityStudent.m; sourceTree = "<group>"; };
+		6FB771631E358D8800DDF16E /* Bank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bank.h; sourceTree = "<group>"; };
+		6FB771641E358D8800DDF16E /* Bank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bank.m; sourceTree = "<group>"; };
+		6FB771661E358D9F00DDF16E /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		6FB771671E358D9F00DDF16E /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		6FB771691E358DAC00DDF16E /* Woman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Woman.h; sourceTree = "<group>"; };
+		6FB7716A1E358DAC00DDF16E /* Woman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Woman.m; sourceTree = "<group>"; };
+		6FB7716D1E358DD800DDF16E /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		6FB7716E1E358DD800DDF16E /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		6FB771701E35A8A300DDF16E /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		6FB771711E35A8A300DDF16E /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		6FB771741E35D55300DDF16E /* Figure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
+		6FB771751E35D55300DDF16E /* Figure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Figure.m; sourceTree = "<group>"; };
+		6FB771771E35D5DA00DDF16E /* FigureArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FigureArea.h; sourceTree = "<group>"; };
+		6FB771781E35D5DA00DDF16E /* FigureArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FigureArea.m; sourceTree = "<group>"; };
+		6FB7717A1E35D79F00DDF16E /* FigurePerimeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FigurePerimeter.h; sourceTree = "<group>"; };
+		6FB7717B1E35D79F00DDF16E /* FigurePerimeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FigurePerimeter.m; sourceTree = "<group>"; };
+		6FB7717D1E35D82600DDF16E /* FigureCircumference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FigureCircumference.h; sourceTree = "<group>"; };
+		6FB7717E1E35D82600DDF16E /* FigureCircumference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FigureCircumference.m; sourceTree = "<group>"; };
+		6FB771801E35D89900DDF16E /* FigureVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FigureVolume.h; sourceTree = "<group>"; };
+		6FB771811E35D89900DDF16E /* FigureVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FigureVolume.m; sourceTree = "<group>"; };
+		6FB771831E35F5D500DDF16E /* ToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBox.h; sourceTree = "<group>"; };
+		6FB771841E35F5D500DDF16E /* ToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBox.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F354DB71E306167003DF283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F354DB11E306167003DF283 = {
+			isa = PBXGroup;
+			children = (
+				6F354DBC1E306167003DF283 /* OOP */,
+				6F354DBD1E306167003DF283 /* main.m */,
+				6F354DBB1E306167003DF283 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F354DBB1E306167003DF283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F354DBA1E306167003DF283 /* OOP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F354DBC1E306167003DF283 /* OOP */ = {
+			isa = PBXGroup;
+			children = (
+				6FB771731E35D3A700DDF16E /* Figure */,
+				6F354DED1E306817003DF283 /* WarCraft */,
+				6F354DEE1E306821003DF283 /* Person */,
+				6FB7716C1E358DB800DDF16E /* Bank */,
+				6FB771701E35A8A300DDF16E /* Calculator.h */,
+				6FB771711E35A8A300DDF16E /* Calculator.m */,
+				6FB771831E35F5D500DDF16E /* ToolBox.h */,
+				6FB771841E35F5D500DDF16E /* ToolBox.m */,
+			);
+			path = OOP;
+			sourceTree = "<group>";
+		};
+		6F354DED1E306817003DF283 /* WarCraft */ = {
+			isa = PBXGroup;
+			children = (
+				6F354DDD1E3067ED003DF283 /* GameCharacter.h */,
+				6F354DDE1E3067ED003DF283 /* GameCharacter.m */,
+				6F354DDB1E3067ED003DF283 /* Alliance.h */,
+				6F354DDC1E3067ED003DF283 /* Alliance.m */,
+				6F354DDF1E3067ED003DF283 /* Horde.h */,
+				6F354DE01E3067ED003DF283 /* Horde.m */,
+			);
+			name = WarCraft;
+			sourceTree = "<group>";
+		};
+		6F354DEE1E306821003DF283 /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				6F354DE41E3067F3003DF283 /* Person.h */,
+				6F354DE51E3067F3003DF283 /* Person.m */,
+				6F354DE61E3067F3003DF283 /* Student.h */,
+				6F354DE71E3067F3003DF283 /* Student.m */,
+				6F354DE81E3067F3003DF283 /* UniversityStudent.h */,
+				6F354DE91E3067F3003DF283 /* UniversityStudent.m */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+		6FB7716C1E358DB800DDF16E /* Bank */ = {
+			isa = PBXGroup;
+			children = (
+				6FB771631E358D8800DDF16E /* Bank.h */,
+				6FB771641E358D8800DDF16E /* Bank.m */,
+				6FB7716D1E358DD800DDF16E /* People.h */,
+				6FB7716E1E358DD800DDF16E /* People.m */,
+				6FB771661E358D9F00DDF16E /* Man.h */,
+				6FB771671E358D9F00DDF16E /* Man.m */,
+				6FB771691E358DAC00DDF16E /* Woman.h */,
+				6FB7716A1E358DAC00DDF16E /* Woman.m */,
+			);
+			name = Bank;
+			sourceTree = "<group>";
+		};
+		6FB771731E35D3A700DDF16E /* Figure */ = {
+			isa = PBXGroup;
+			children = (
+				6FB771741E35D55300DDF16E /* Figure.h */,
+				6FB771751E35D55300DDF16E /* Figure.m */,
+				6FB771771E35D5DA00DDF16E /* FigureArea.h */,
+				6FB771781E35D5DA00DDF16E /* FigureArea.m */,
+				6FB7717A1E35D79F00DDF16E /* FigurePerimeter.h */,
+				6FB7717B1E35D79F00DDF16E /* FigurePerimeter.m */,
+				6FB7717D1E35D82600DDF16E /* FigureCircumference.h */,
+				6FB7717E1E35D82600DDF16E /* FigureCircumference.m */,
+				6FB771801E35D89900DDF16E /* FigureVolume.h */,
+				6FB771811E35D89900DDF16E /* FigureVolume.m */,
+			);
+			name = Figure;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F354DB91E306167003DF283 /* OOP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F354DC11E306167003DF283 /* Build configuration list for PBXNativeTarget "OOP" */;
+			buildPhases = (
+				6F354DB61E306167003DF283 /* Sources */,
+				6F354DB71E306167003DF283 /* Frameworks */,
+				6F354DB81E306167003DF283 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OOP;
+			productName = OOP;
+			productReference = 6F354DBA1E306167003DF283 /* OOP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F354DB21E306167003DF283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "BongKi Cho";
+				TargetAttributes = {
+					6F354DB91E306167003DF283 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6F354DB51E306167003DF283 /* Build configuration list for PBXProject "OOP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6F354DB11E306167003DF283;
+			productRefGroup = 6F354DBB1E306167003DF283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F354DB91E306167003DF283 /* OOP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F354DB61E306167003DF283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB771681E358D9F00DDF16E /* Man.m in Sources */,
+				6F354DE31E3067ED003DF283 /* Horde.m in Sources */,
+				6F354DEC1E3067F3003DF283 /* UniversityStudent.m in Sources */,
+				6FB771761E35D55300DDF16E /* Figure.m in Sources */,
+				6FB771791E35D5DA00DDF16E /* FigureArea.m in Sources */,
+				6F354DE21E3067ED003DF283 /* GameCharacter.m in Sources */,
+				6FB7716B1E358DAC00DDF16E /* Woman.m in Sources */,
+				6FB7717C1E35D79F00DDF16E /* FigurePerimeter.m in Sources */,
+				6FB7716F1E358DD800DDF16E /* People.m in Sources */,
+				6F354DEA1E3067F3003DF283 /* Person.m in Sources */,
+				6FB771821E35D89900DDF16E /* FigureVolume.m in Sources */,
+				6F354DE11E3067ED003DF283 /* Alliance.m in Sources */,
+				6FB771651E358D8800DDF16E /* Bank.m in Sources */,
+				6FB771721E35A8A300DDF16E /* Calculator.m in Sources */,
+				6FB7717F1E35D82600DDF16E /* FigureCircumference.m in Sources */,
+				6FB771851E35F5D500DDF16E /* ToolBox.m in Sources */,
+				6F354DBE1E306167003DF283 /* main.m in Sources */,
+				6F354DEB1E3067F3003DF283 /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6F354DBF1E306167003DF283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6F354DC01E306167003DF283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6F354DC21E306167003DF283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6F354DC31E306167003DF283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F354DB51E306167003DF283 /* Build configuration list for PBXProject "OOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F354DBF1E306167003DF283 /* Debug */,
+				6F354DC01E306167003DF283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F354DC11E306167003DF283 /* Build configuration list for PBXNativeTarget "OOP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F354DC21E306167003DF283 /* Debug */,
+				6F354DC31E306167003DF283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F354DB21E306167003DF283 /* Project object */;
+}
