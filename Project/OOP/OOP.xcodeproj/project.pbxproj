@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3903B28D1E4193150005C766 /* Iteration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3903B28C1E4193150005C766 /* Iteration.m */; };
+		39F84A491E4066EE0081E6FD /* RemindPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F84A481E4066EE0081E6FD /* RemindPerson.m */; };
+		39F84A4D1E406D130081E6FD /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F84A4C1E406D130081E6FD /* Developer.m */; };
+		39F84A501E406D250081E6FD /* Designer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F84A4F1E406D250081E6FD /* Designer.m */; };
+		39F84A531E4070E20081E6FD /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F84A521E4070E20081E6FD /* Teacher.m */; };
+		39F84A561E40AE380081E6FD /* PracticeProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F84A551E40AE380081E6FD /* PracticeProblem.m */; };
 		6F354DBE1E306167003DF283 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F354DBD1E306167003DF283 /* main.m */; };
 		6F354DE11E3067ED003DF283 /* Alliance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F354DDC1E3067ED003DF283 /* Alliance.m */; };
 		6F354DE21E3067ED003DF283 /* GameCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F354DDE1E3067ED003DF283 /* GameCharacter.m */; };
@@ -40,6 +46,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3903B28B1E4193150005C766 /* Iteration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iteration.h; sourceTree = "<group>"; };
+		3903B28C1E4193150005C766 /* Iteration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Iteration.m; sourceTree = "<group>"; };
+		39F84A471E4066EE0081E6FD /* RemindPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindPerson.h; sourceTree = "<group>"; };
+		39F84A481E4066EE0081E6FD /* RemindPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindPerson.m; sourceTree = "<group>"; };
+		39F84A4B1E406D130081E6FD /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Developer.h; sourceTree = "<group>"; };
+		39F84A4C1E406D130081E6FD /* Developer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Developer.m; sourceTree = "<group>"; };
+		39F84A4E1E406D250081E6FD /* Designer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Designer.h; sourceTree = "<group>"; };
+		39F84A4F1E406D250081E6FD /* Designer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Designer.m; sourceTree = "<group>"; };
+		39F84A511E4070E20081E6FD /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		39F84A521E4070E20081E6FD /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		39F84A541E40AE380081E6FD /* PracticeProblem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PracticeProblem.h; sourceTree = "<group>"; };
+		39F84A551E40AE380081E6FD /* PracticeProblem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PracticeProblem.m; sourceTree = "<group>"; };
 		6F354DBA1E306167003DF283 /* OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOP; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F354DBD1E306167003DF283 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = OOP/main.m; sourceTree = "<group>"; };
 		6F354DDB1E3067ED003DF283 /* Alliance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alliance.h; path = Warcraft/Alliance.h; sourceTree = "<group>"; };
@@ -89,6 +107,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3903B28A1E4190BD0005C766 /* Iteration */ = {
+			isa = PBXGroup;
+			children = (
+				3903B28B1E4193150005C766 /* Iteration.h */,
+				3903B28C1E4193150005C766 /* Iteration.m */,
+			);
+			name = Iteration;
+			sourceTree = "<group>";
+		};
+		39F84A4A1E4069290081E6FD /* Remind */ = {
+			isa = PBXGroup;
+			children = (
+				39F84A471E4066EE0081E6FD /* RemindPerson.h */,
+				39F84A481E4066EE0081E6FD /* RemindPerson.m */,
+				39F84A4B1E406D130081E6FD /* Developer.h */,
+				39F84A4C1E406D130081E6FD /* Developer.m */,
+				39F84A4E1E406D250081E6FD /* Designer.h */,
+				39F84A4F1E406D250081E6FD /* Designer.m */,
+				39F84A511E4070E20081E6FD /* Teacher.h */,
+				39F84A521E4070E20081E6FD /* Teacher.m */,
+				39F84A541E40AE380081E6FD /* PracticeProblem.h */,
+				39F84A551E40AE380081E6FD /* PracticeProblem.m */,
+			);
+			name = Remind;
+			sourceTree = "<group>";
+		};
 		6F354DB11E306167003DF283 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +157,8 @@
 				6F354DED1E306817003DF283 /* WarCraft */,
 				6F354DEE1E306821003DF283 /* Person */,
 				6FB7716C1E358DB800DDF16E /* Bank */,
+				39F84A4A1E4069290081E6FD /* Remind */,
+				3903B28A1E4190BD0005C766 /* Iteration */,
 				6FB771701E35A8A300DDF16E /* Calculator.h */,
 				6FB771711E35A8A300DDF16E /* Calculator.m */,
 				6FB771831E35F5D500DDF16E /* ToolBox.h */,
@@ -239,11 +285,17 @@
 				6FB771681E358D9F00DDF16E /* Man.m in Sources */,
 				6F354DE31E3067ED003DF283 /* Horde.m in Sources */,
 				6F354DEC1E3067F3003DF283 /* UniversityStudent.m in Sources */,
+				39F84A501E406D250081E6FD /* Designer.m in Sources */,
+				39F84A531E4070E20081E6FD /* Teacher.m in Sources */,
 				6FB771761E35D55300DDF16E /* Figure.m in Sources */,
+				39F84A4D1E406D130081E6FD /* Developer.m in Sources */,
+				39F84A491E4066EE0081E6FD /* RemindPerson.m in Sources */,
 				6FB771791E35D5DA00DDF16E /* FigureArea.m in Sources */,
+				39F84A561E40AE380081E6FD /* PracticeProblem.m in Sources */,
 				6F354DE21E3067ED003DF283 /* GameCharacter.m in Sources */,
 				6FB7716B1E358DAC00DDF16E /* Woman.m in Sources */,
 				6FB7717C1E35D79F00DDF16E /* FigurePerimeter.m in Sources */,
+				3903B28D1E4193150005C766 /* Iteration.m in Sources */,
 				6FB7716F1E358DD800DDF16E /* People.m in Sources */,
 				6F354DEA1E3067F3003DF283 /* Person.m in Sources */,
 				6FB771821E35D89900DDF16E /* FigureVolume.m in Sources */,
