@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16D32" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Trip" representedClassName="Trip" syncable="YES" codeGenerationType="class">
+        <attribute name="trip_content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trip_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="trip_image" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="trip_index" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trip_like" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="trip_location_postion" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="trip_main_location" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trip_sub_location" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Trip" positionX="-12519" positionY="-9387" width="128" height="165"/>
+    </elements>
+</model>
