@@ -1,0 +1,17 @@
+# 여행다이어리
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/151739610@N03/33175990971/in/photostream/" title="20170307214942(1)"><img src="https://c1.staticflickr.com/1/705/33175990971_5b89d1d0d9.jpg" width="284" height="500" alt="20170307214942(1)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
+## 여행을 하면서 기록을 남기기 위해 만들어진 앱입니다.
+<br/>
+
+
+## 기능명세서
+조회 : 등록한 여행일지를 최신일자를 우선으로 조회  
+등록 : 기기의 로케이션 정보를 통하여 위치를 조회. 위치, 일자, 내용, 사진정보를 등록  
+수정 : 위치, 일자, 내용, 사진정보를 수정
+삭제 : 여행일지 정보를 삭제  
+여행위치조회 : 등록된 로케이션 위치를 지도에 표시
+
+세팅 : 프로필 정보를 수정
