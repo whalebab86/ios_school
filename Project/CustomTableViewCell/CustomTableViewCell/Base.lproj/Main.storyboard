@@ -10,6 +10,45 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Show Map View Controller-->
+        <scene sceneID="1HI-Ez-gbL">
+            <objects>
+                <viewController storyboardIdentifier="ShowMapViewController" id="VCa-GZ-EfR" customClass="ShowMapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kHs-tu-LYZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Azb-Vc-yDV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h8M-rP-ygI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="eW0-Lc-Els">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eW0-Lc-Els" firstAttribute="leading" secondItem="h8M-rP-ygI" secondAttribute="leading" id="MqM-97-Rb3"/>
+                            <constraint firstItem="Azb-Vc-yDV" firstAttribute="top" secondItem="eW0-Lc-Els" secondAttribute="bottom" id="Ux1-SB-aBO"/>
+                            <constraint firstAttribute="trailing" secondItem="eW0-Lc-Els" secondAttribute="trailing" id="d3F-l4-kSP"/>
+                            <constraint firstItem="eW0-Lc-Els" firstAttribute="top" secondItem="kHs-tu-LYZ" secondAttribute="bottom" id="z1A-vJ-sLr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0JK-Ba-jP6">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="DDt-Gf-ce0">
+                            <connections>
+                                <action selector="didClickBarItem:" destination="VCa-GZ-EfR" id="Z2r-IX-7U6"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="eW0-Lc-Els" id="UTN-xA-ZYq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J0R-JS-1wn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857" y="-520"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -197,6 +236,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VzK-hK-9Ok" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="390" y="818"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jsh-pw-Yrf">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationShowMapViewController" automaticallyAdjustsScrollViewInsets="NO" id="TkP-Ni-SBO" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xAk-Uw-8Sh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="VCa-GZ-EfR" kind="relationship" relationship="rootViewController" id="jqd-UC-qiI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CBS-pu-YLV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1147.8260869565217" y="-520.10869565217399"/>
         </scene>
     </scenes>
 </document>

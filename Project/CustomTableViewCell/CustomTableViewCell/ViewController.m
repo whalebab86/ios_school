@@ -15,6 +15,8 @@
 #import "TripDetailViewController.h"
 #import "TripSettingViewController.h"
 
+#import "ShowMapViewController.h"
+
 #import "DataCenter.h"
 
 @interface ViewController ()
@@ -289,6 +291,15 @@
         
     } else if([buttonIdentifier isEqualToString:@"showMapButton"]) {
         /* footer show on map button */
+        
+        [[[[UIApplication sharedApplication] valueForKey:@"statusBarWindow"] valueForKey:@"statusBar"] setBackgroundColor:[UIColor whiteColor]];
+        
+        ShowMapViewController *showMap = [self.storyboard instantiateViewControllerWithIdentifier:@"ShowMapViewController"];
+        showMap.indexPath = indexPath;
+        
+        UINavigationController *vc = [[UINavigationController alloc] initWithRootViewController:showMap];
+        
+        [self presentViewController:vc animated:YES completion:nil];
         
     } else if([buttonIdentifier isEqualToString:@"shareButton"]) {
         /* footer share button */

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,10 @@
 		39456E9E1E59837600806A59 /* photo-camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 39456E9D1E59837600806A59 /* photo-camera.png */; };
 		39456EA01E599A8C00806A59 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 39456E9F1E599A8C00806A59 /* calendar.png */; };
 		39456EA21E599F9000806A59 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 39456EA11E599F9000806A59 /* location.png */; };
+		397239121E6E80920071A62C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397239111E6E80920071A62C /* MapKit.framework */; };
+		3972393F1E6ECF630071A62C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3972393E1E6ECF630071A62C /* CoreLocation.framework */; };
+		397239421E6ED2960071A62C /* ShowMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 397239411E6ED2960071A62C /* ShowMapViewController.m */; };
+		397239451E6EDB830071A62C /* ShowMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 397239441E6EDB830071A62C /* ShowMapAnnotation.m */; };
 		399CDCEA1E56C21800B8561B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 399CDCE91E56C21800B8561B /* main.m */; };
 		399CDCED1E56C21800B8561B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 399CDCEC1E56C21800B8561B /* AppDelegate.m */; };
 		399CDCF01E56C21800B8561B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 399CDCEF1E56C21800B8561B /* ViewController.m */; };
@@ -64,6 +68,12 @@
 		39456E9D1E59837600806A59 /* photo-camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-camera.png"; sourceTree = "<group>"; };
 		39456E9F1E599A8C00806A59 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
 		39456EA11E599F9000806A59 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		397239111E6E80920071A62C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3972393E1E6ECF630071A62C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		397239401E6ED2960071A62C /* ShowMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMapViewController.h; sourceTree = "<group>"; };
+		397239411E6ED2960071A62C /* ShowMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMapViewController.m; sourceTree = "<group>"; };
+		397239431E6EDB830071A62C /* ShowMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMapAnnotation.h; sourceTree = "<group>"; };
+		397239441E6EDB830071A62C /* ShowMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMapAnnotation.m; sourceTree = "<group>"; };
 		399CDCE51E56C21800B8561B /* TripDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		399CDCE91E56C21800B8561B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		399CDCEB1E56C21800B8561B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +120,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3972393F1E6ECF630071A62C /* CoreLocation.framework in Frameworks */,
+				397239121E6E80920071A62C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +139,10 @@
 				39CD6B661E61BEBA0062DE32 /* TripCustomTableViewCell.m */,
 				399CDCFF1E56C2A300B8561B /* TripTableViewCell.h */,
 				399CDD001E56C2A300B8561B /* TripTableViewCell.m */,
+				397239401E6ED2960071A62C /* ShowMapViewController.h */,
+				397239411E6ED2960071A62C /* ShowMapViewController.m */,
+				397239431E6EDB830071A62C /* ShowMapAnnotation.h */,
+				397239441E6EDB830071A62C /* ShowMapAnnotation.m */,
 			);
 			name = "Trip Main";
 			sourceTree = "<group>";
@@ -202,6 +218,15 @@
 			name = "Data - Model";
 			sourceTree = "<group>";
 		};
+		397239101E6E80920071A62C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3972393E1E6ECF630071A62C /* CoreLocation.framework */,
+				397239111E6E80920071A62C /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		399CDCDC1E56C21800B8561B = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +234,7 @@
 				399CDCF91E56C21800B8561B /* Info.plist */,
 				3904048D1E61493900630BC5 /* Trip_Core_Data.xcdatamodeld */,
 				399CDCE61E56C21800B8561B /* Products */,
+				397239101E6E80920071A62C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -312,13 +338,12 @@
 				TargetAttributes = {
 					399CDCE41E56C21800B8561B = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 3K9Z88WM72;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 399CDCE01E56C21800B8561B /* Build configuration list for PBXProject "TripDiary" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -374,6 +399,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				397239421E6ED2960071A62C /* ShowMapViewController.m in Sources */,
 				39456E951E59622400806A59 /* TripDetailViewController.m in Sources */,
 				399CDCF01E56C21800B8561B /* ViewController.m in Sources */,
 				3935FE4E1E5FC592006071B3 /* LoginViewController.m in Sources */,
@@ -382,6 +408,7 @@
 				3935FE481E5DB3A2006071B3 /* ProfileSettingView.m in Sources */,
 				39A24BDC1E5D54FF00D4CB99 /* TripSettingTableViewCell.m in Sources */,
 				39CD6B671E61BEBA0062DE32 /* TripCustomTableViewCell.m in Sources */,
+				397239451E6EDB830071A62C /* ShowMapAnnotation.m in Sources */,
 				399CDCED1E56C21800B8561B /* AppDelegate.m in Sources */,
 				3935FE451E5DB2D6006071B3 /* ProfileSettingViewController.m in Sources */,
 				39A24BB11E5B2FEF00D4CB99 /* TripDetailTableViewCell.m in Sources */,
@@ -506,10 +533,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3K9Z88WM72;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = CustomTableViewCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = whalebab.TripDiary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.tripdairy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -518,10 +545,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3K9Z88WM72;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = CustomTableViewCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = whalebab.TripDiary;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fastcampus.tripdairy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

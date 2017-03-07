@@ -451,8 +451,8 @@
     for (CLLocation *location in locations) {
         CLLocationCoordinate2D coordinate = location.coordinate;
         
-        NSLog(@"%f", coordinate.latitude);
-        NSLog(@"%f", coordinate.longitude);
+        [self.tripInfo setValue:[NSString stringWithFormat:@"%lf", coordinate.latitude] forKey:@"trip_location_latitude"];
+        [self.tripInfo setValue:[NSString stringWithFormat:@"%lf", coordinate.longitude] forKey:@"trip_location_longitude"];
     }
     
     CLGeocoder *geocoder = [[CLGeocoder alloc] init];
@@ -465,6 +465,9 @@
             [self.tripInfo setValue:[placemark.addressDictionary objectForKey:@"State"]  forKey:@"trip_main_location"];
             [self.tripInfo setValue:[placemark.addressDictionary objectForKey:@"Street"] forKey:@"trip_sub_location"];
             
+            [self.tripInfo setValue:[placemark.addressDictionary objectForKey:@"State"]  forKey:@"trip_main_location"];
+            [self.tripInfo setValue:[placemark.addressDictionary objectForKey:@"Street"] forKey:@"trip_sub_location"];
+        
             /*
             NSLog(@"%@", [placemark.addressDictionary objectForKey:@"City"]);
             NSLog(@"%@", [placemark.addressDictionary objectForKey:@"Country"]);

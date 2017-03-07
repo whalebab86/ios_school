@@ -6,11 +6,12 @@
         <attribute name="trip_image" optional="YES" attributeType="Transformable" syncable="YES"/>
         <attribute name="trip_index" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="trip_like" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
-        <attribute name="trip_location_postion" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="trip_location_latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trip_location_longitude" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="trip_main_location" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="trip_sub_location" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Trip" positionX="-12519" positionY="-9387" width="128" height="165"/>
+        <element name="Trip" positionX="-12519" positionY="-9387" width="128" height="180"/>
     </elements>
 </model>

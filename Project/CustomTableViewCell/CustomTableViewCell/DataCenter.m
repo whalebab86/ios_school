@@ -200,6 +200,10 @@
     [task setValue:[tripInfo objectForKey:@"trip_content"]          forKey:@"trip_content"];            /* String */
     [task setValue:[tripInfo objectForKey:@"trip_image"]            forKey:@"trip_image"];              /* UIImage */
 //    [task setValue:[tripInfo objectForKey:@"trip_location_postion"] forKey:@"trip_location_postion"];   /*  */
+    
+    [task setValue:[tripInfo objectForKey:@"trip_location_longitude"] forKey:@"trip_location_longitude"];
+    [task setValue:[tripInfo objectForKey:@"trip_location_latitude"] forKey:@"trip_location_latitude"];
+    
     [task setValue:[tripInfo objectForKey:@"trip_main_location"]    forKey:@"trip_main_location"];      /*  */
     [task setValue:[tripInfo objectForKey:@"trip_sub_location"]     forKey:@"trip_sub_location"];       /*  */
     [task setValue:[tripInfo objectForKey:@"trip_like"]             forKey:@"trip_like"];               /*  */
@@ -225,6 +229,9 @@
     [result setValue:[tripInfo objectForKey:@"trip_main_location"]    forKey:@"trip_main_location"];
     [result setValue:[tripInfo objectForKey:@"trip_sub_location"]     forKey:@"trip_sub_location"];
     [result setValue:[tripInfo objectForKey:@"trip_like"]             forKey:@"trip_like"];
+    
+    [result setValue:[tripInfo objectForKey:@"trip_location_longitude"] forKey:@"trip_location_longitude"];
+    [result setValue:[tripInfo objectForKey:@"trip_location_latitude"] forKey:@"trip_location_latitude"];
     
     [self.managedObjectContext save:nil];
 }
