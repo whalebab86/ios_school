@@ -5,4 +5,4 @@
 <br/>
 Petme : https://github.com/BaekJinCho/PetmeApp
 
-<iframe width="560" height="315" src="http://www.youtube.com/embed/M7QMEjWznEE" frameborder="0" allowfullscreen></iframe>
+<iframe width="400" height="200" src="http://www.youtube.com/embed/M7QMEjWznEE" frameborder="0" allowfullscreen></iframe>
