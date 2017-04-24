@@ -1,6 +1,8 @@
 # 여행다이어리
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/151739610@N03/33175990971/in/photostream/" title="20170307214942(1)"><img src="https://c1.staticflickr.com/1/705/33175990971_5b89d1d0d9.jpg" width="284" height="500" alt="20170307214942(1)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/151739610@N03/33175990971/in/photostream/" title="20170307214942(1)"><img src="https://c1.staticflickr.com/1/705/33175990971_5b89d1d0d9.jpg" width="284" height="500" alt="20170307214942(1)"></a>
+<br/>
+[이미지 클릭 시 영상페이지로 이동]
 
 
 ## 여행을 하면서 기록을 남기기 위해 만들어진 앱입니다.
