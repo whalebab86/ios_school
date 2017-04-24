@@ -11,7 +11,8 @@
 [[Trip diary App 프로젝트 이동](https://github.com/whalebab86/ios_school/tree/master/Project/CustomTableViewCell "여행다이어리 프로젝트")]
 
 ## 3. Petme App
-<img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif.gif?raw=true" width="350"/>
+![영상 Gif_01](https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif.gif?raw=true "이미지제목")
+<br/>
 [[Petme App 프로젝트 이동](https://github.com/BaekJinCho/PetmeApp "펫미 프로젝트")]  
 <br/>
 
