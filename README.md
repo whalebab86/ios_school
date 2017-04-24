@@ -12,6 +12,5 @@
 
 ## 3. Petme App
 <img src="https://github.com/BaekJinCho/PetmeApp/blob/master/Image/ezgif.com-video-to-gif.gif?raw=true" width="350">
-<br/>
 [[Petme App 프로젝트 이동](https://github.com/BaekJinCho/PetmeApp "펫미 프로젝트")]  
 <br/>
