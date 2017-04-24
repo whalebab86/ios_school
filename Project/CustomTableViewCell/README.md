@@ -7,7 +7,7 @@
 
 ![영상 Gif_02](https://github.com/whalebab86/ios_school/blob/master/etc/trip_diary_02.gif "이미지제목")
 <br/>
-[영상_01]
+[영상_02]
 
 ## 여행을 하면서 기록을 남기기 위해 만들어진 앱입니다.
 <br/>
