@@ -1,5 +1,6 @@
 ## Trip Diary App
 - FastCampus (iOS School)
+- 2017.02.13 ~ 2017.03.04
 
 ![영상 Gif_01](https://github.com/whalebab86/ios_school/blob/master/etc/trip_diary_01.gif "이미지제목")
 <br/>
