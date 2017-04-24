@@ -1,8 +1,8 @@
 # 여행다이어리
 
-<img src="https://c1.staticflickr.com/1/705/33175990971_5b89d1d0d9.jpg" width="284" height="500" alt="20170307214942(1)">
+![영상 Gif_01](https://github.com/whalebab86/ios_school/blob/master/etc/trip_diary_01.gif "이미지제목")
 <br/>
-[영상페이지 클릭](https://www.flickr.com/photos/151739610@N03/33175990971/in/photostream/ "영상페이지")
+![영상 Gif_02](https://github.com/whalebab86/ios_school/blob/master/etc/trip_diary_02.gif "이미지제목")
 <br/>
 
 ## 여행을 하면서 기록을 남기기 위해 만들어진 앱입니다.
