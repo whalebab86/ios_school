@@ -2,7 +2,7 @@
 
 <img src="https://c1.staticflickr.com/1/705/33175990971_5b89d1d0d9.jpg" width="284" height="500" alt="20170307214942(1)">
 <br/>
-[[클릭]](https://www.flickr.com/photos/151739610@N03/33175990971/in/photostream/ "링크제목").
+[[클릭](https://www.flickr.com/photos/151739610@N03/33175990971/in/photostream/ "링크제목").]
 
 ## 여행을 하면서 기록을 남기기 위해 만들어진 앱입니다.
 <br/>
