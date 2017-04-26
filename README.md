@@ -17,7 +17,7 @@
 <br/>
 
 ## 4. Record App
-![영상 Gif_01]( "이미지제목")
+![Record gif](https://github.com/whalebab86/Record_IOS/blob/master/App_Manual_Document/image/record_cover_01.gif)
 <br/>
-[[Record App 프로젝트 이동](https://github.com/whalebab86/Record_IOS "펫미 프로젝트")]  
+[[Record App 프로젝트 이동](https://github.com/whalebab86/Record_IOS "Record 프로젝트")]  
 <br/>
